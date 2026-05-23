@@ -2,54 +2,7 @@ export default function Home() {
   return (
     <main className="flex flex-col bg-[#ECEEF0] text-[#202020]">
       {/* Navigation */}
-      <header className="sticky top-0 z-50 w-full border-b border-[#DEE0E2] bg-[#ECEEF0]/80 backdrop-blur">
-        <nav className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
-          <a href="#" className="flex items-center gap-2">
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#202020] text-[#ECEEF0] text-sm font-bold">
-              V
-            </span>
-            <span className="text-lg font-semibold tracking-tight">
-              ViralOne
-            </span>
-          </a>
-          <ul className="hidden items-center gap-8 text-sm font-medium md:flex">
-            <li>
-              <a href="#features" className="hover:opacity-60">
-                기능
-              </a>
-            </li>
-            <li>
-              <a href="#how" className="hover:opacity-60">
-                사용법
-              </a>
-            </li>
-            <li>
-              <a href="#showcase" className="hover:opacity-60">
-                쇼케이스
-              </a>
-            </li>
-            <li>
-              <a href="#pricing" className="hover:opacity-60">
-                요금제
-              </a>
-            </li>
-          </ul>
-          <div className="flex items-center gap-2">
-            <a
-              href="#"
-              className="hidden rounded-full px-4 py-2 text-sm font-medium hover:bg-[#DEE0E2] sm:inline-block"
-            >
-              로그인
-            </a>
-            <a
-              href="#cta"
-              className="rounded-full bg-[#202020] px-4 py-2 text-sm font-semibold text-[#ECEEF0] hover:opacity-90"
-            >
-              무료 시작
-            </a>
-          </div>
-        </nav>
-      </header>
+     
 
       {/* Hero */}
       <section className="relative overflow-hidden">
@@ -65,10 +18,7 @@ export default function Home() {
               바이럴 영상
             </span>
           </h1>
-          <p className="mt-6 max-w-2xl text-base text-[#202020]/70 sm:text-lg">
-            기획부터 스크립트, 편집, 자막, BGM까지. ViralOne이 단 한 번의
-            클릭으로 SNS에서 터지는 숏폼 영상을 만들어 드립니다.
-          </p>
+    
 
           {/* Prompt Input Mock */}
           <div className="mt-10 w-full max-w-2xl">
@@ -237,7 +187,7 @@ export default function Home() {
                 SHOWCASE
               </p>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                ViralOne으로 만든 영상들
+                RunGym으로 만든 영상들
               </h2>
             </div>
             <a
@@ -422,9 +372,9 @@ export default function Home() {
           <div className="max-w-sm">
             <div className="flex items-center gap-2">
               <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#202020] text-[#ECEEF0] text-sm font-bold">
-                V
+                R
               </span>
-              <span className="text-lg font-semibold">ViralOne</span>
+              <span className="text-lg font-semibold">RunGym</span>
             </div>
             <p className="mt-3 text-sm text-[#202020]/60">
               한 줄의 아이디어를 바이럴 영상으로. AI가 만드는 새로운 콘텐츠
@@ -496,7 +446,7 @@ export default function Home() {
         </div>
         <div className="border-t border-[#DEE0E2]">
           <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-5 text-xs text-[#202020]/50">
-            <span>© 2026 ViralOne. All rights reserved.</span>
+            <span>© 2026 RunGym. All rights reserved.</span>
             <span>Made with AI · Seoul</span>
           </div>
         </div>
